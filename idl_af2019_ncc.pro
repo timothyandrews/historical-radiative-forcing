@@ -120,7 +120,7 @@ PRO idl_af2019_ncc
     OPLOT, [p05,p05],[ypos, ypos+ysize],color=col, thick=4
 
     ; Plot 5-95% bar for CMIP5 forcing & individual models
-    col = 9
+    col = 15
     ypos2 = ypos1-0.08
     ypos=ypos2
     ysize=0.06
@@ -180,7 +180,7 @@ PRO idl_af2019_ncc
     OPLOT, [p05,p05],[ypos, ypos+ysize],color=col, thick=4
 
     ; Plot 5-95% bar for CMIP5 aerosol forcing & individual models
-    col = 9
+    col = 15
     ypos2 = ypos1-0.08
     ypos=ypos2
     ysize=0.06
